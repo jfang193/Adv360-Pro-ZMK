@@ -41,7 +41,7 @@
             bindings = <
  &kp EQUAL       &kp N1      &kp N2      &kp N3        &kp N4  &kp N5                      &tog 1                                                                 &mo 3  &kp N6            &kp N7           &kp N8      &kp N9                      &kp N0  &kp MINUS
    &kp TAB        &kp Q       &kp W       &kp E         &kp R   &kp T            &macro_clipboard                                                                 &none   &kp Y             &kp U            &kp I       &kp O                       &kp P   &kp BSLH
-   &kp ESC  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHIFT F   &kp G               &macro_parens  &kp PG_UP  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H  &hm LEFT_SHIFT J  &hm RIGHT_ALT K  &hm LGUI L  &hm LEFT_CONTROL SEMICOLON    &kp SQT
+   &kp ESC  &mt LCTRL A  &mt LALT S  &mt LGUI D  &mt LSHIFT F   &kp G               &macro_parens  &kp PG_UP  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H  &mt LEFT_SHIFT J  &mt RIGHT_ALT K  &mt LGUI L  &mt LEFT_CONTROL SEMICOLON    &kp SQT
  &kp LSHFT        &kp Z       &kp X       &kp C         &kp V   &kp B                                         &kp HOME                  &kp PG_DN                         &kp N             &kp M        &kp COMMA     &kp DOT                    &kp FSLH  &kp RSHFT
      &mo 2    &kp GRAVE    &kp CAPS    &kp LEFT     &kp RIGHT                            &kp BSPC  &kp SPACE   &kp END                  &kp PG_DN      &mo 1  &kp ENTER                    &kp UP         &kp DOWN    &kp LBKT                    &kp RBKT      &mo 2
             >;
@@ -50,7 +50,7 @@
         layer_keypad {
             bindings = <
  &kp EQUAL                &kp N1                 &kp N2            &kp N3             &kp N4           &kp N5              &trans                                                              &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB                 &kp Q                  &kp W             &kp E     &kp LEFT_BRACE  &kp RIGHT_BRACE               &none                                                              &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
+   &kp TAB                 &kp Q                  &kp W         &kp EQUAL     &kp LEFT_BRACE  &kp RIGHT_BRACE               &none                                                              &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
    &kp ESC  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET            &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL   &none   &kp H   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
  &kp EQUAL                 &kp Z                  &kp X             &kp C              &kp V            &kp B                                 &kp HOME                  &kp PG_UP                      &kp N   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
      &mo 2             &kp GRAVE               &kp CAPS          &kp LEFT          &kp RIGHT                             &kp BSPC    &kp DEL   &kp END                  &kp PG_DN      &none  &trans              &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT      &mo 2
